@@ -5,9 +5,9 @@
 #         |_| |_|\__,_|_|   \__,_|\__|\__,  |\__,_||_|  |_|\___/ \__,_|\__,_|_|\___||___/
 #                                       ___/
 #
-#                                     © Copyright 2025</b>
+#                                     © Copyright 2025
 #
-#                                https://t.me/HarutyaModules</b>
+#                                https://t.me/HarutyaModules
 #
 #   🔒 Code is licensed under GNU AGPLv3
 #   🌐 https://www.gnu.org/licenses/agpl-3.0.html
@@ -425,5 +425,6 @@ class AetherSoulDeusMod(loader.Module):
         """— Принудительно сжать историю (вызвать summary)."""
 
         await self._summarize_history(message.chat_id, message)
+
 
 
